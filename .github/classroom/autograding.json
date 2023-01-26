@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "test_game_9_4",
+      "setup": "",
+      "run": "python -m unittest tests.chicken_foot_tests.ChickenFootTests.test_game_9_4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "test_game_12_4",
+      "setup": "",
+      "run": "python -m unittest tests.chicken_foot_tests.ChickenFootTests.test_game_12_4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "test_game_16_2",
+      "setup": "",
+      "run": "python -m unittest tests.chicken_foot_tests.ChickenFootTests.test_game_16_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "test_game_16_4",
+      "setup": "",
+      "run": "python -m unittest tests.chicken_foot_tests.ChickenFootTests.test_game_16_4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "test_game_16_6",
+      "setup": "",
+      "run": "python -m unittest tests.chicken_foot_tests.ChickenFootTests.test_game_16_6",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}
