@@ -7,11 +7,17 @@ class Domino:
 
     # Returns true if value is one of the sides of the domino
     def contains_val(self, value):
-        pass
+        if self.value[0] == value or self.value[1] == value:
+            return True
+        else:
+            return False
 
     # returns true is the domino is a double
     def is_double(self):
-        pass
+        if self.value[0] == self.value[1]:
+            return True
+        else:
+            return False
     
     # sets which pip values are open (can be played on) and closed, given the value played on
     # matched_value: the value that you are playing on, e.g. if your domino is 7-5, and you are
@@ -19,7 +25,8 @@ class Domino:
     # set attributes self.open_value and self.closed_value to the appropriate values to get
     # __str__ to work
     def set_open_value(self, matched_value:int):
-        pass
+        self.open_value = matched_value
+        self.closed_value = self.value[0]
 
     # returns a string representing the domino; used for casting as string and string formats
     def __str__(self) -> str:
