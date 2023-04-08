@@ -18,4 +18,7 @@ class ChickenFootLine:
       self.line_name = str(chicken_foot) # line_name should be a string representing the entire line in the format "7-2|2-2|2-5|5-5", where last entry is the center
 
    def add(self, domino: Domino):
-      pass
+      node = domino
+      node.next = self.first
+      self.first = node
+      self.line_name = str(domino.domino) + "!"
