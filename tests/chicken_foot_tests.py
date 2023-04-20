@@ -94,4 +94,4 @@ class ChickenFootTests(TestCase):
         
     def test_game_16_6(self):
         self.run_game(16, 6)
-        
+         
